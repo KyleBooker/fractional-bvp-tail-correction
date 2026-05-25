@@ -1,0 +1,22 @@
+# Reference copy of homoclinic.in with parameter descriptions.
+#
+# The actual homoclinic.in is whitespace-delimited with no comments — the
+# solver reads it via fscanf("%d %d %lf %lf %d %lf %d %d %d %lf %lf %lf").
+# To use a new configuration, copy the bare 12 values (without the # lines)
+# into homoclinic.in.
+#
+# value          | name | meaning
+# ---------------+------+---------------------------------------------------
+  10000          # mt    max time-stepping iterations
+  0              # init  0 = build initial condition from (3a)/(3b) interp;
+                 #       1 = read prior state from ic.in
+  1.0            # g     anomaly index gamma in [1, 2]; 2 = regular Laplacian
+  2.0            # p     non-linearity exponent (> 1)
+  1              # n     domain scaling factor (effective domain = 2*pi*n/eps)
+  0.01           # dt    Euler time step
+  1000           # ndts  print progress every ndts steps when ir = 1
+  1              # ir    verbose flag (1 = print, 0 = silent)
+  65536          # N     number of mesh points; must be a power of 2 for FFT
+  5000.0         # D     inhibitor diffusion coefficient
+  0.01           # eps   activator diffusion coefficient; sets domain via 2*pi/eps
+  0.05           # tau   reaction time constant (tau_o in the paper)
