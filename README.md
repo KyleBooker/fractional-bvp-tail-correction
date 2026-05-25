@@ -121,12 +121,10 @@ If this code is useful in your research please cite the paper:
 }
 ```
 
-A `CITATION.cff` is included so GitHub will show a "Cite this repository" button.
-
 ## Authors
 
 - **Kyle Booker** — Department of Mathematics and Statistics, Thompson Rivers University
-- **Yana Nec** — Department of Mathematics and Statistics, Thompson Rivers University (`cranberryana@gmail.com`)
+- **Yana Nec** — Department of Mathematics and Statistics, Thompson Rivers University
 
 ## Acknowledgements
 
