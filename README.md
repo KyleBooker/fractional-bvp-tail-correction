@@ -52,7 +52,6 @@ For p = 2 and several values of γ, the upper panel shows the solution core; the
 | `hclin.m`                             | MATLAB post-processing: overlays analytic references and fits the tail decay rate.  |
 | `Makefile`                            | Builds the main solver and all four variants.                                       |
 | `docs/figures/`                       | PNGs of selected paper figures used in this README.                                 |
-| `scripts/extract_figures.py`          | One-shot helper used to render the figures from the paper PDF.                      |
 
 ## Build & run
 
