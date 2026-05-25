@@ -31,3 +31,6 @@ Thumbs.db
 # Python (the figure-extraction helper)
 __pycache__/
 *.pyc
+
+# One-shot helper scripts kept locally only
+scripts/
