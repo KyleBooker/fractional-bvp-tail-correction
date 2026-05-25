@@ -1,0 +1,33 @@
+# Published paper — kept locally for reference but not redistributed via git
+GMp.pdf
+
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# Solver outputs and saved initial conditions
+homoclinic.out
+ground_state.out
+ic.in
+
+# Origin Lab figures (binary, won't render on GitHub — keep PNGs in docs/figures/)
+*.ofig
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Python (the figure-extraction helper)
+__pycache__/
+*.pyc
