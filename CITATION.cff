@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "fractional-bvp-tail-correction: numerical solver for BVPs on infinite domains with slowly decaying tails"
+authors:
+  - family-names: Booker
+    given-names: Kyle
+    affiliation: "Department of Mathematics and Statistics, Thompson Rivers University"
+  - family-names: Nec
+    given-names: Yana
+    affiliation: "Department of Mathematics and Statistics, Thompson Rivers University"
+    email: cranberryana@gmail.com
+license: MIT
+repository-code: "https://github.com/kyle-booker/fractional-bvp-tail-correction"
+preferred-citation:
+  type: article
+  title: "On Accuracy of Numerical Solution to Boundary Value Problems on Infinite Domains with Slow Decay"
+  authors:
+    - family-names: Booker
+      given-names: Kyle
+    - family-names: Nec
+      given-names: Yana
+  journal: "Mathematical Modelling of Natural Phenomena"
+  year: 2019
+  publisher:
+    name: "EDP Sciences"
+  doi: "10.1051/mmnp/2019057"
